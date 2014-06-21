@@ -1,0 +1,300 @@
+
+languagesystem taml dflt;
+
+# GSUB 
+
+
+lookup abvsAboveBaseSubstitutionsinTam {
+  lookupflag 0;
+    sub \u0B95 \u0BBF  by \u0B95_u0BBF.abvs;
+    sub \u0B99 \u0BBF  by \u0B99_u0BBF.abvs;
+    sub \u0B9A \u0BBF  by \u0B9A_u0BBF.abvs;
+    sub \u0B9C \u0BBF  by \u0B9C_u0BBF.abvs;
+    sub \u0B9E \u0BBF  by \u0B9E_u0BBF.abvs;
+    sub \u0B9F \u0BBF  by \u0B9F_u0BBF.abvs;
+    sub \u0BA3 \u0BBF  by \u0BA3_u0BBF.abvs;
+    sub \u0BA4 \u0BBF  by \u0BA4_u0BBF.abvs;
+    sub \u0BA8 \u0BBF  by \u0BA8_u0BBF.abvs;
+    sub \u0BA9 \u0BBF  by \u0BA9_u0BBF.abvs;
+    sub \u0BAA \u0BBF  by \u0BAA_u0BBF.abvs;
+    sub \u0BAE \u0BBF  by \u0BAE_u0BBF.abvs;
+    sub \u0BAF \u0BBF  by \u0BAF_u0BBF.abvs;
+    sub \u0BB0 \u0BBF  by \u0BB0_u0BBF.abvs;
+    sub \u0BB1 \u0BBF  by \u0BB1_u0BBF.abvs;
+    sub \u0BB2 \u0BBF  by \u0BB2_u0BBF.abvs;
+    sub \u0BB3 \u0BBF  by \u0BB3_u0BBF.abvs;
+    sub \u0BB4 \u0BBF  by \u0BB4_u0BBF.abvs;
+    sub \u0BB5 \u0BBF  by \u0BB5_u0BBF.abvs;
+    sub \u0BB7 \u0BBF  by \u0BB7_u0BBF.abvs;
+    sub \u0BB8 \u0BBF  by \u0BB8_u0BBF.abvs;
+    sub \u0BB9 \u0BBF  by \u0BB9_u0BBF.abvs;
+    sub \u0B95 \u0BC0  by \u0B95_u0BC0.abvs;
+    sub \u0B99 \u0BC0  by \u0B99_u0BC0.abvs;
+    sub \u0B9A \u0BC0  by \u0B9A_u0BC0.abvs;
+    sub \u0B9C \u0BC0  by \u0B9C_u0BC0.abvs;
+    sub \u0B9E \u0BC0  by \u0B9E_u0BC0.abvs;
+    sub \u0B9F \u0BC0  by \u0B9F_u0BC0.abvs;
+    sub \u0BA3 \u0BC0  by \u0BA3_u0BC0.abvs;
+    sub \u0BA4 \u0BC0  by \u0BA4_u0BC0.abvs;
+    sub \u0BA8 \u0BC0  by \u0BA8_u0BC0.abvs;
+    sub \u0BA9 \u0BC0  by \u0BA9_u0BC0.abvs;
+    sub \u0BAA \u0BC0  by \u0BAA_u0BC0.abvs;
+    sub \u0BAE \u0BC0  by \u0BAE_u0BC0.abvs;
+    sub \u0BAF \u0BC0  by \u0BAF_u0BC0.abvs;
+    sub \u0BB0 \u0BC0  by \u0BB0_u0BC0.abvs;
+    sub \u0BB1 \u0BC0  by \u0BB1_u0BC0.abvs;
+    sub \u0BB2 \u0BC0  by \u0BB2_u0BC0.abvs;
+    sub \u0BB3 \u0BC0  by \u0BB3_u0BC0.abvs;
+    sub \u0BB4 \u0BC0  by \u0BB4_u0BC0.abvs;
+    sub \u0BB5 \u0BC0  by \u0BB5_u0BC0.abvs;
+    sub \u0BB7 \u0BC0  by \u0BB7_u0BC0.abvs;
+    sub \u0BB8 \u0BC0  by \u0BB8_u0BC0.abvs;
+    sub \u0BB9 \u0BC0  by \u0BB9_u0BC0.abvs;
+    sub \u0B95_u0BCD_u0BB7.akhn \u0BBF  by \u0B95_u0BCD_u0BB7.akhn_u0BBF.abvs;
+    sub \u0B95_u0BCD_u0BB7.akhn \u0BC0  by \u0B95_u0BCD_u0BB7.akhn_u0BC0.abvs;
+    sub \u0BB8_u0BCD.half \u0BB0 \u0BC0  by \u0BB6_u0BCD.half_u0BB0_u0BC0.abvs;
+    sub \u0BB6_u0BCD.half \u0BB0 \u0BC0  by \u0BB6_u0BCD.half_u0BB0_u0BC0.abvs;
+    sub \u0BB6 \u0BBF  by \u0BB6_u0BBF.abvs;
+} abvsAboveBaseSubstitutionsinTam;
+
+lookup akhnAkhandinTamillookup1 {
+  lookupflag 0;
+    sub \u0B95 \u0BCD \u0BB7  by \u0B95_u0BCD_u0BB7.akhn;
+} akhnAkhandinTamillookup1;
+
+lookup blwsBelowBaseSubstitutionsinTam {
+  lookupflag 0;
+    sub \u0B95 \u0BC1  by \u0B95_u0BC1.blws;
+    sub \u0B99 \u0BC1  by \u0B99_u0BC1.blws;
+    sub \u0B9A \u0BC1  by \u0B9A_u0BC1.blws;
+    sub \u0B9E \u0BC1  by \u0B9E_u0BC1.blws;
+    sub \u0B9F \u0BC1  by \u0B9F_u0BC1.blws;
+    sub \u0BA3 \u0BC1  by \u0BA3_u0BC1.blws;
+    sub \u0BA4 \u0BC1  by \u0BA4_u0BC1.blws;
+    sub \u0BA8 \u0BC1  by \u0BA8_u0BC1.blws;
+    sub \u0BA9 \u0BC1  by \u0BA9_u0BC1.blws;
+    sub \u0BAA \u0BC1  by \u0BAA_u0BC1.blws;
+    sub \u0BAE \u0BC1  by \u0BAE_u0BC1.blws;
+    sub \u0BAF \u0BC1  by \u0BAF_u0BC1.blws;
+    sub \u0BB0 \u0BC1  by \u0BB0_u0BC1.blws;
+    sub \u0BB1 \u0BC1  by \u0BB1_u0BC1.blws;
+    sub \u0BB2 \u0BC1  by \u0BB2_u0BC1.blws;
+    sub \u0BB3 \u0BC1  by \u0BB3_u0BC1.blws;
+    sub \u0BB4 \u0BC1  by \u0BB4_u0BC1.blws;
+    sub \u0BB5 \u0BC1  by \u0BB5_u0BC1.blws;
+    sub \u0B95 \u0BC2  by \u0B95_u0BC2.blws;
+    sub \u0B99 \u0BC2  by \u0B99_u0BC2.blws;
+    sub \u0B9A \u0BC2  by \u0B9A_u0BC2.blws;
+    sub \u0B9E \u0BC2  by \u0B9E_u0BC2.blws;
+    sub \u0B9F \u0BC2  by \u0B9F_u0BC2.blws;
+    sub \u0BA3 \u0BC2  by \u0BA3_u0BC2.blws;
+    sub \u0BA4 \u0BC2  by \u0BA4_u0BC2.blws;
+    sub \u0BA8 \u0BC2  by \u0BA8_u0BC2.blws;
+    sub \u0BA9 \u0BC2  by \u0BA9_u0BC2.blws;
+    sub \u0BAA \u0BC2  by \u0BAA_u0BC2.blws;
+    sub \u0BAE \u0BC2  by \u0BAE_u0BC2.blws;
+    sub \u0BAF \u0BC2  by \u0BAF_u0BC2.blws;
+    sub \u0BB0 \u0BC2  by \u0BB0_u0BC2.blws;
+    sub \u0BB1 \u0BC2  by \u0BB1_u0BC2.blws;
+    sub \u0BB2 \u0BC2  by \u0BB2_u0BC2.blws;
+    sub \u0BB3 \u0BC2  by \u0BB3_u0BC2.blws;
+    sub \u0BB4 \u0BC2  by \u0BB4_u0BC2.blws;
+    sub \u0BB5 \u0BC2  by \u0BB5_u0BC2.blws;
+} blwsBelowBaseSubstitutionsinTam;
+
+lookup halfHalfFormsinTamillookup3 {
+  lookupflag 0;
+    sub \u0B95 \u0BCD  by \u0B95_u0BCD.half;
+    sub \u0B99 \u0BCD  by \u0B99_u0BCD.half;
+    sub \u0B9A \u0BCD  by \u0B9A_u0BCD.half;
+    sub \u0B9C \u0BCD  by \u0B9C_u0BCD.half;
+    sub \u0B9E \u0BCD  by \u0B9E_u0BCD.half;
+    sub \u0B9F \u0BCD  by \u0B9F_u0BCD.half;
+    sub \u0BA3 \u0BCD  by \u0BA3_u0BCD.half;
+    sub \u0BA4 \u0BCD  by \u0BA4_u0BCD.half;
+    sub \u0BA8 \u0BCD  by \u0BA8_u0BCD.half;
+    sub \u0BA9 \u0BCD  by \u0BA9_u0BCD.half;
+    sub \u0BAA \u0BCD  by \u0BAA_u0BCD.half;
+    sub \u0BAE \u0BCD  by \u0BAE_u0BCD.half;
+    sub \u0BAF \u0BCD  by \u0BAF_u0BCD.half;
+    sub \u0BB0 \u0BCD  by \u0BB0_u0BCD.half;
+    sub \u0BB1 \u0BCD  by \u0BB1_u0BCD.half;
+    sub \u0BB2 \u0BCD  by \u0BB2_u0BCD.half;
+    sub \u0BB3 \u0BCD  by \u0BB3_u0BCD.half;
+    sub \u0BB4 \u0BCD  by \u0BB4_u0BCD.half;
+    sub \u0BB5 \u0BCD  by \u0BB5_u0BCD.half;
+    sub \u0BB7 \u0BCD  by \u0BB7_u0BCD.half;
+    sub \u0BB8 \u0BCD  by \u0BB8_u0BCD.half;
+    sub \u0BB9 \u0BCD  by \u0BB9_u0BCD.half;
+    sub \u0B95_u0BCD_u0BB7.akhn \u0BCD  by \u0B95_u0BCD_u0BB7.akhn_u0BCD.half;
+    sub \u0BB6 \u0BCD  by \u0BB6_u0BCD.half;
+    sub \u0BB6 \u0BC0  by \u0BB6_u0BC0.half;
+} halfHalfFormsinTamillookup3;
+
+lookup halnHalantFormsinTamillookup4 {
+  lookupflag 0;
+    sub \u0B95 \u0BCD  by \u0B95_u0BCD.half;
+    sub \u0B99 \u0BCD  by \u0B99_u0BCD.half;
+    sub \u0B9A \u0BCD  by \u0B9A_u0BCD.half;
+    sub \u0B9C \u0BCD  by \u0B9C_u0BCD.half;
+    sub \u0B9E \u0BCD  by \u0B9E_u0BCD.half;
+    sub \u0B9F \u0BCD  by \u0B9F_u0BCD.half;
+    sub \u0BA3 \u0BCD  by \u0BA3_u0BCD.half;
+    sub \u0BA4 \u0BCD  by \u0BA4_u0BCD.half;
+    sub \u0BA8 \u0BCD  by \u0BA8_u0BCD.half;
+    sub \u0BA9 \u0BCD  by \u0BA9_u0BCD.half;
+    sub \u0BAA \u0BCD  by \u0BAA_u0BCD.half;
+    sub \u0BAE \u0BCD  by \u0BAE_u0BCD.half;
+    sub \u0BAF \u0BCD  by \u0BAF_u0BCD.half;
+    sub \u0BB0 \u0BCD  by \u0BB0_u0BCD.half;
+    sub \u0BB1 \u0BCD  by \u0BB1_u0BCD.half;
+    sub \u0BB2 \u0BCD  by \u0BB2_u0BCD.half;
+    sub \u0BB3 \u0BCD  by \u0BB3_u0BCD.half;
+    sub \u0BB4 \u0BCD  by \u0BB4_u0BCD.half;
+    sub \u0BB5 \u0BCD  by \u0BB5_u0BCD.half;
+    sub \u0BB7 \u0BCD  by \u0BB7_u0BCD.half;
+    sub \u0BB8 \u0BCD  by \u0BB8_u0BCD.half;
+    sub \u0BB9 \u0BCD  by \u0BB9_u0BCD.half;
+    sub \u0B95_u0BCD_u0BB7.akhn \u0BCD  by \u0B95_u0BCD_u0BB7.akhn_u0BCD.half;
+    sub \u0BB6 \u0BCD  by \u0BB6_u0BCD.half;
+    sub \u0BB6 \u0BC0  by \u0BB6_u0BC0.half;
+} halnHalantFormsinTamillookup4;
+
+feature abvs {
+
+ script taml;
+     language dflt ;
+      lookup abvsAboveBaseSubstitutionsinTam;
+} abvs;
+
+feature akhn {
+
+ script taml;
+     language dflt ;
+      lookup akhnAkhandinTamillookup1;
+} akhn;
+
+feature blws {
+
+ script taml;
+     language dflt ;
+      lookup blwsBelowBaseSubstitutionsinTam;
+} blws;
+
+feature half {
+
+ script taml;
+     language dflt ;
+      lookup halfHalfFormsinTamillookup3;
+} half;
+
+feature haln {
+
+ script taml;
+     language dflt ;
+      lookup halnHalantFormsinTamillookup4;
+} haln;
+
+# GPOS 
+
+
+lookup abvmAboveBaseMarkinTamillookup0 {
+  lookupflag 0;
+  markClass [\u0b82 ] <anchor -123 537> @Anchor0;
+  pos base [\u0B85 ] <anchor 575 516> mark @Anchor0;
+  pos base [\u0B86 ] <anchor 640 537> mark @Anchor0;
+  pos base [\u0B87 ] <anchor 510 820> mark @Anchor0;
+  pos base [\u0B88 ] <anchor 396 506> mark @Anchor0;
+  pos base [\u0B89 ] <anchor 473 522> mark @Anchor0;
+  pos base [\u0B8A ] <anchor 637 515> mark @Anchor0;
+  pos base [\u0B8E ] <anchor 435 506> mark @Anchor0;
+  pos base [\u0B8F ] <anchor 440 506> mark @Anchor0;
+  pos base [\u0B90 ] <anchor 423 504> mark @Anchor0;
+  pos base [\u0B92 ] <anchor 428 519> mark @Anchor0;
+  pos base [\u0B93 ] <anchor 418 529> mark @Anchor0;
+  pos base [\u0B94 ] <anchor 879 514> mark @Anchor0;
+  pos base [\u0B95 ] <anchor 329 494> mark @Anchor0;
+  pos base [\u0B99 ] <anchor 449 492> mark @Anchor0;
+  pos base [\u0B9A ] <anchor 300 495> mark @Anchor0;
+  pos base [\u0B9C ] <anchor 433 502> mark @Anchor0;
+  pos base [\u0B9E ] <anchor 572 505> mark @Anchor0;
+  pos base [\u0B9F ] <anchor 423 502> mark @Anchor0;
+  pos base [\u0BA3 ] <anchor 675 516> mark @Anchor0;
+  pos base [\u0BA4 ] <anchor 322 492> mark @Anchor0;
+  pos base [\u0BA8 ] <anchor 310 499> mark @Anchor0;
+  pos base [\u0BA9 ] <anchor 519 506> mark @Anchor0;
+  pos base [\u0BAA ] <anchor 374 494> mark @Anchor0;
+  pos base [\u0BAE ] <anchor 435 511> mark @Anchor0;
+  pos base [\u0BAF ] <anchor 424 488> mark @Anchor0;
+  pos base [\u0BB0 ] <anchor 310 495> mark @Anchor0;
+  pos base [\u0BB1 ] <anchor 337 509> mark @Anchor0;
+  pos base [\u0BB2 ] <anchor 423 534> mark @Anchor0;
+  pos base [\u0BB3 ] <anchor 482 510> mark @Anchor0;
+  pos base [\u0BB4 ] <anchor 430 511> mark @Anchor0;
+  pos base [\u0BB5 ] <anchor 482 513> mark @Anchor0;
+  pos base [\u0BB6 ] <anchor 516 498> mark @Anchor0;
+  pos base [\u0BB7 ] <anchor 616 502> mark @Anchor0;
+  pos base [\u0BB8 ] <anchor 538 535> mark @Anchor0;
+  pos base [\u0BB9 ] <anchor 608 509> mark @Anchor0;
+  pos base [\u0B95_u0BCD_u0BB7.akhn ] <anchor 1335 -7> mark @Anchor0;
+} abvmAboveBaseMarkinTamillookup0;
+
+feature abvm {
+
+ script taml;
+     language dflt ;
+      lookup abvmAboveBaseMarkinTamillookup0;
+} abvm;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\.notdef \.null \nonmarkingreturn \space \exclam \quotedbl 
+	\numbersign \dollar \percent \ampersand \quotesingle \parenleft \parenright 
+	\asterisk \plus \comma \hyphen \period \slash \zero \one \two \three \four \five 
+	\six \seven \eight \nine \colon \semicolon \less \equal \greater \question \at 
+	\bracketleft \backslash \bracketright \asciicircum \underscore \grave 
+	\braceleft \bar \braceright \asciitilde \cent \multiply \divide \uni0964 
+	\uni0965 \u0B83 \u0B85 \u0B86 \u0B87 \u0B88 \u0B89 \u0B8A \u0B8E \u0B8F \u0B90 
+	\u0B92 \u0B93 \u0B94 \u0B95 \u0B99 \u0B9A \u0B9C \u0B9E \u0B9F \u0BA3 \u0BA4 \u0BA8 
+	\u0BA9 \u0BAA \u0BAE \u0BAF \u0BB0 \u0BB1 \u0BB2 \u0BB3 \u0BB4 \u0BB5 \u0BB6 \u0BB7 
+	\u0BB8 \u0BB9 \u0BBE \u0BBF \u0BC0 \u0BC6 \u0BC7 \u0BC8 \u0BCA \u0BCB \u0BCC \u0BCD 
+	\u0BD7 \u0BE7 \u0BE8 \u0BE9 \u0BEA \u0BEB \u0BEC \u0BED \u0BEE \u0BEF \u0BF0 \u0BF1 
+	\u0BF2 \u0BF3 \u0BF4 \u0BF5 \u0BF6 \u0BF7 \u0BF8 \u0BF9 \u0BFA \afii61664 \afii301 
+	\endash \emdash \quoteleft \quoteright \quotedblleft \quotedblright \ellipsis 
+	\minus \uni25CC \u0B95_u0BBF.abvs \u0B99_u0BBF.abvs \u0B9A_u0BBF.abvs 
+	\u0B9C_u0BBF.abvs \u0B9E_u0BBF.abvs \u0B9F_u0BBF.abvs \u0BA3_u0BBF.abvs 
+	\u0BA4_u0BBF.abvs \u0BA8_u0BBF.abvs \u0BA9_u0BBF.abvs \u0BAA_u0BBF.abvs 
+	\u0BAE_u0BBF.abvs \u0BAF_u0BBF.abvs \u0BB0_u0BBF.abvs \u0BB1_u0BBF.abvs 
+	\u0BB2_u0BBF.abvs \u0BB3_u0BBF.abvs \u0BB4_u0BBF.abvs \u0BB5_u0BBF.abvs 
+	\u0BB7_u0BBF.abvs \u0BB8_u0BBF.abvs \u0BB9_u0BBF.abvs \u0B95_u0BC0.abvs 
+	\u0B99_u0BC0.abvs \u0B9A_u0BC0.abvs \u0B9C_u0BC0.abvs \u0B9E_u0BC0.abvs 
+	\u0B9F_u0BC0.abvs \u0BA3_u0BC0.abvs \u0BA4_u0BC0.abvs \u0BA8_u0BC0.abvs 
+	\u0BA9_u0BC0.abvs \u0BAA_u0BC0.abvs \u0BAE_u0BC0.abvs \u0BAF_u0BC0.abvs 
+	\u0BB0_u0BC0.abvs \u0BB1_u0BC0.abvs \u0BB2_u0BC0.abvs \u0BB3_u0BC0.abvs 
+	\u0BB4_u0BC0.abvs \u0BB5_u0BC0.abvs \u0BB7_u0BC0.abvs \u0BB8_u0BC0.abvs 
+	\u0BB9_u0BC0.abvs \u0B95_u0BC1.blws \u0B99_u0BC1.blws \u0B9A_u0BC1.blws 
+	\glyph175 \u0B9E_u0BC1.blws \u0B9F_u0BC1.blws \u0BA3_u0BC1.blws 
+	\u0BA4_u0BC1.blws \u0BA8_u0BC1.blws \u0BA9_u0BC1.blws \u0BAA_u0BC1.blws 
+	\u0BAE_u0BC1.blws \u0BAF_u0BC1.blws \u0BB0_u0BC1.blws \u0BB1_u0BC1.blws 
+	\u0BB2_u0BC1.blws \u0BB3_u0BC1.blws \u0BB4_u0BC1.blws \u0BB5_u0BC1.blws 
+	\u0B95_u0BC2.blws \u0B99_u0BC2.blws \u0B9A_u0BC2.blws \glyph194 
+	\u0B9E_u0BC2.blws \u0B9F_u0BC2.blws \u0BA3_u0BC2.blws \u0BA4_u0BC2.blws 
+	\u0BA8_u0BC2.blws \u0BA9_u0BC2.blws \u0BAA_u0BC2.blws \u0BAE_u0BC2.blws 
+	\u0BAF_u0BC2.blws \u0BB0_u0BC2.blws \u0BB1_u0BC2.blws \u0BB2_u0BC2.blws 
+	\u0BB3_u0BC2.blws \u0BB4_u0BC2.blws \u0BB5_u0BC2.blws 
+	\u0B95_u0BCD_u0BB7.akhn \u0B95_u0BCD_u0BB7.akhn_u0BBF.abvs 
+	\u0B95_u0BCD_u0BB7.akhn_u0BC0.abvs \u0BB6_u0BCD.half_u0BB0_u0BC0.abvs 
+	\u0B95_u0BCD.half \u0B99_u0BCD.half \u0B9A_u0BCD.half \u0B9C_u0BCD.half 
+	\u0B9E_u0BCD.half \u0B9F_u0BCD.half \u0BA3_u0BCD.half \u0BA4_u0BCD.half 
+	\u0BA8_u0BCD.half \u0BA9_u0BCD.half \u0BAA_u0BCD.half \u0BAE_u0BCD.half 
+	\u0BAF_u0BCD.half \u0BB0_u0BCD.half \u0BB1_u0BCD.half \u0BB2_u0BCD.half 
+	\u0BB3_u0BCD.half \u0BB4_u0BCD.half \u0BB5_u0BCD.half \u0BB7_u0BCD.half 
+	\u0BB8_u0BCD.half \u0BB9_u0BCD.half \u0B95_u0BCD_u0BB7.akhn_u0BCD.half 
+	\u0BB6_u0BCD.half \u0BB6_u0BC0.half \u0BB6_u0BBF.abvs \u0BE6 \uni0BD0 
+	\uni20B9 ];
+@GDEF_Mark = [\u0b82 \u0BC1 \u0BC2 ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+
+} GDEF;
+
