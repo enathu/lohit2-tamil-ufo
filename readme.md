@@ -11,4 +11,4 @@ Original FontForge source file of Lohit2 Tamil is also avaialbe [here](https://g
 
 ## License
 
-Lohit2 Tamil is licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>)
+Lohit2 Tamil is licensed under GNU General Public License [GPL](https://gnu.org/licenses/gpl.html)
