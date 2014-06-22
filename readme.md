@@ -6,9 +6,9 @@ Lohit2 Tamil can be used as a base for new OFL fonts by using its Glyph List and
 
 Original FontForge source file of Lohit2 Tamil is also avaialbe [here](https://github.com/pravins/lohit2/tree/master/tamil)
 
-#### Feel free to fork and download to make awesome Tamil unicode compliance typefaces/fonts.
+##### Feel free to fork and download to make awesome Tamil unicode compliance typefaces/fonts.
 
 
 ## License
 
-Lohit2 Tamil is licensed under GNU General Public License [GPL](https://gnu.org/licenses/gpl.html)
+Lohit2 Tamil is licensed under GNU General Public License [(GPL)](https://gnu.org/licenses/gpl.html)
